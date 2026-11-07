@@ -1,0 +1,40 @@
+.bank-page{max-width:1120px}
+.bank-heading{text-align:center;margin-bottom:32px}
+.bank-heading h1{font-size:42px;margin:12px 0}
+.bank-heading p{color:var(--muted)}
+.bank-layout{display:grid;grid-template-columns:1fr 1.2fr;gap:24px;align-items:start}
+.bank-balance{background:linear-gradient(135deg,#103444,#087d89);color:white;border-radius:22px;padding:32px;min-height:280px}
+.bank-balance-top{display:flex;justify-content:space-between;align-items:center;font-size:12px;letter-spacing:2px}
+.bank-balance p{margin-top:48px;color:#d5eaee}
+.bank-balance h2{font-size:48px;color:white;margin:10px 0 24px}
+.bank-status{font-weight:700;margin-bottom:20px}
+.bank-balance small{color:#d5eaee}
+.bank-panel,.bank-history{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px;color:var(--ink)}
+.bank-panel h2{margin-top:0}
+.bank-panel h3{margin-top:26px}
+.bank-panel label{font-size:13px;font-weight:700;display:block;margin-bottom:9px}
+.bank-input{width:100%;padding:13px;border-radius:10px;background:var(--bg);color:var(--ink);border:1px solid var(--line);margin:6px 0 14px;font-size:16px}
+.bank-buttons,.bank-inputs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.bank-buttons button,.bank-purchase{display:flex;align-items:center;justify-content:center;gap:9px;padding:14px;border:0;border-radius:10px;font-weight:800;cursor:pointer}
+.bank-buttons button:first-child{background:#0d9b9c;color:#fff}
+.bank-buttons button:last-child{background:#dfb66e;color:#17212a}
+.bank-hint{font-size:12px;color:var(--muted)}
+.bank-purchase{width:100%;background:var(--accent);color:white}
+.bank-message{padding:12px;border-radius:10px;background:var(--bg);font-size:13px}
+.bank-history{margin-top:24px}
+.bank-history-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.bank-history-top h2{display:flex;align-items:center;gap:10px;font-size:20px}
+.bank-history-top button{display:flex;gap:7px;align-items:center;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:9px;padding:10px}
+.bank-empty{text-align:center;padding:30px;color:var(--muted)}
+.bank-movement{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding:18px 0}
+.bank-movement small{display:block;color:var(--muted);margin-top:5px}
+.bank-positive{color:#11a889}
+.bank-negative{color:#e16d6d}
+.bank-disclaimer{text-align:center;color:var(--muted);font-size:12px;margin-top:24px}
+@media(max-width:780px){
+.bank-layout{grid-template-columns:1fr}
+.bank-heading h1{font-size:32px}
+.bank-balance h2{font-size:37px}
+.bank-page{padding-left:16px;padding-right:16px}
+.bank-panel,.bank-history{padding:20px}
+}
